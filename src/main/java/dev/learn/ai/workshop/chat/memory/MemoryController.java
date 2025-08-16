@@ -9,19 +9,19 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class MemoeryController {
+public class MemoryController {
     private final ChatClient chatClient;
 
-    public MemoeryController(@Qualifier("openAPIChatClient")ChatClient chatClient,
-                             ChatMemory chatMemory) {
+    public MemoryController(@Qualifier("openAPIChatClient")ChatClient chatClient,
+                            ChatMemory chatMemory) {
         this.chatClient = chatClient.mutate()
                 .defaultAdvisors(MessageChatMemoryAdvisor.builder(chatMemory).build()).build();
     }
 
     @GetMapping("/memory")
-    public String memoery(@RequestParam String message){
+    public String memory(@RequestParam String message){
         return chatClient.prompt()
                 .user(message)
-                .call().
+                .call().content();
     }
 }

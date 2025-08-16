@@ -5,10 +5,10 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class DeepSeekChatClient {
+public class DeepSeekChatController {
     private final ChatClient chatClient;
 
-    public DeepSeekChatClient(@Qualifier("deepSeekChatClient") ChatClient chatClient) {
+    public DeepSeekChatController(@Qualifier("deepSeekChatClient") ChatClient chatClient) {
         this.chatClient = chatClient;
     }
 }

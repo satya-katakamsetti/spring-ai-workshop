@@ -1,4 +1,6 @@
 package dev.learn.ai.workshop.chat.record;
 
-public record Models() {
+import java.util.List;
+
+public record Models(List<Model> models) {
 }

@@ -1,4 +1,4 @@
-package dev.learn.ai.workshop.chat.prompt.record;
+package dev.learn.ai.workshop.chat.record;
 
 import java.util.List;
 
