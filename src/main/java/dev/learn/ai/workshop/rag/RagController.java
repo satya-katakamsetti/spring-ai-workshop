@@ -1,6 +1,6 @@
-package dev.learn.ai.workshop.chat.rag;
+package dev.learn.ai.workshop.rag;
 
-import dev.learn.ai.workshop.chat.record.Models;
+import dev.learn.ai.workshop.record.Models;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.client.advisor.vectorstore.QuestionAnswerAdvisor;
 import org.springframework.ai.vectorstore.VectorStore;

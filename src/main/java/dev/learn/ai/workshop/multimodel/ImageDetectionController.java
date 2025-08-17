@@ -1,4 +1,4 @@
-package dev.learn.ai.workshop.chat.multimodel;
+package dev.learn.ai.workshop.multimodel;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.beans.factory.annotation.Qualifier;

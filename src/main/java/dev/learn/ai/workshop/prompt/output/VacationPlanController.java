@@ -1,6 +1,6 @@
-package dev.learn.ai.workshop.chat.prompt.output;
+package dev.learn.ai.workshop.prompt.output;
 
-import dev.learn.ai.workshop.chat.record.Itinerary;
+import dev.learn.ai.workshop.record.Itinerary;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.GetMapping;

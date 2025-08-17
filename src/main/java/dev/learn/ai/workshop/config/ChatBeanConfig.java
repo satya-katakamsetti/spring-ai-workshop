@@ -1,4 +1,4 @@
-package dev.learn.ai.workshop.chat.config;
+package dev.learn.ai.workshop.config;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.deepseek.DeepSeekChatModel;

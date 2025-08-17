@@ -1,4 +1,4 @@
-package dev.learn.ai.workshop.chat.multimodel;
+package dev.learn.ai.workshop.multimodel;
 
 import org.springframework.ai.image.ImageOptions;
 import org.springframework.ai.image.ImagePrompt;

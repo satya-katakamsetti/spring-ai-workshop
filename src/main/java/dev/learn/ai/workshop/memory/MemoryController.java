@@ -1,4 +1,4 @@
-package dev.learn.ai.workshop.chat.memory;
+package dev.learn.ai.workshop.memory;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.client.advisor.MessageChatMemoryAdvisor;
